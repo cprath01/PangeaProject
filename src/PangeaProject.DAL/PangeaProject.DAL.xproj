@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>7cdf79f2-5256-4cc8-ad20-cbe58cc8438b</ProjectGuid>
-    <RootNamespace>PangeaProject.MQConsumer</RootNamespace>
+    <ProjectGuid>37b53877-88e4-43cc-a55c-d362b4647eeb</ProjectGuid>
+    <RootNamespace>PangeaProject.DAL</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>

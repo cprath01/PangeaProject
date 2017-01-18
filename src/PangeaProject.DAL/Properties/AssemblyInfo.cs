@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PangeaProject.MQConsumer")]
+[assembly: AssemblyProduct("PangeaProject.DAL")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -16,4 +16,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7cdf79f2-5256-4cc8-ad20-cbe58cc8438b")]
+[assembly: Guid("37b53877-88e4-43cc-a55c-d362b4647eeb")]

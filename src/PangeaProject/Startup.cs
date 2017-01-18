@@ -36,6 +36,7 @@ namespace PangeaProject
             services.AddScoped<IMQClientWrapper, RabbitMQClient>();
             services.AddScoped<IMQMessageCreator, MQMessageCreator>();
             services.AddScoped<IMQProducer, RabbitMQProducerManager>();
+            services.AddScoped<DAL.IPangeaRepoDBEntities, PangeaProject.DAL.PangeaRepoDBEntities>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

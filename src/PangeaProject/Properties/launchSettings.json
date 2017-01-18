@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/LoadData",
+      "launchUrl": "api/Repositories",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
