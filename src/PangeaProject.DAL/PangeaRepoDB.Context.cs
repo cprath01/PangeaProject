@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DAL
+namespace PangeaProject.DAL
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PangeaRepoDBEntities : DbContext, IPangeaRepoDBEntities
+    public partial class PangeaRepoDBEntities : DbContext
     {
         public PangeaRepoDBEntities()
-            : base("name=PangeaRepoDBEntities")
+            : base("metadata=res://*/PangeaRepoDB.csdl|res://*/PangeaRepoDB.ssdl|res://*/PangeaRepoDB.msl;provider=System.Data.SqlClient;provider connection string=\"data source = PRATHER-LAPTOP\\SQLEXPRESS; initial catalog = PangeaRepoDB; integrated security = True; MultipleActiveResultSets=True;App=EntityFramework\"")
         {
         }
     

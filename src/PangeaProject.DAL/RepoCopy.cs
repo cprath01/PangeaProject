@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DAL
+namespace PangeaProject.DAL
 {
     using System;
     using System.Collections.Generic;
