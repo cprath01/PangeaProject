@@ -22,9 +22,9 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PangeaProject.Queues", "src
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PangeaProject.Queues.Test", "test\PangeaProject.Queues.Test\PangeaProject.Queues.Test.xproj", "{2A6D7565-95CF-4ACB-A779-D68389180A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PangeaProject.DAL", "src\PangeaProject.DAL\PangeaProject.DAL.csproj", "{63554BD2-4568-4452-9779-617156E3911E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PangeaProject.DAL", "PangeaProject.DAL\PangeaProject.DAL.csproj", "{63554BD2-4568-4452-9779-617156E3911E}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PangeaRepoDB", "src\PangeaReposDB\PangeaRepoDB.sqlproj", "{935278B7-ABCA-41FB-81DA-23630F0C2853}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PangeaRepoDB", "PangeaReposDB\PangeaRepoDB.sqlproj", "{935278B7-ABCA-41FB-81DA-23630F0C2853}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

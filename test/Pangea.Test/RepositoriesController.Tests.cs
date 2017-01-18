@@ -9,7 +9,7 @@ namespace PangeaProject.Test
         [Fact]
         public void Get_Blank_Value_Test() 
         {
-            var controller = new RepositoriesController();
+            var controller = new RepositoriesController(null);
 
             var result = controller.Get();
 
